@@ -1,11 +1,11 @@
 # NetworkIntrusionDetection
-Network Intrusion Detection System (NIDS)
+#Network Intrusion Detection System (NIDS)
 
-Overview
+#Overview
 
 This repository contains configurations and resources for setting up and managing a Network Intrusion Detection System (NIDS) using Suricata. Suricata is a powerful, open-source NIDS tool capable of monitoring network traffic, analyzing packets, and generating alerts for suspicious or malicious activity.
 
-Features
+#Features
 
 Packet Inspection: Deep inspection of network packets for potential threats.
 
@@ -17,17 +17,8 @@ Rule Integration: Supports integration with Emerging Threats and custom rules.
 
 Scalable: Handles large amounts of network traffic efficiently.
 
-Repository Contents
 
-suricata.yaml: Main configuration file for Suricata.
-
-Rules: Custom and community rulesets for detecting network threats.
-
-Scripts: Useful scripts for managing and testing the NIDS.
-
-Documentation: Guides and resources to help you deploy and manage Suricata.
-
-Prerequisites
+#Prerequisites
 
 Hardware/Software Requirements
 
@@ -37,7 +28,7 @@ Suricata Version: 7.0 or above.
 
 Network Interface: A configured and active network interface (e.g., eth0, wlan0).
 
-Installation
+#Installation
 
 Update your system:
 
